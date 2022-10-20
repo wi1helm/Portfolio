@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Obama Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                    
+    <div class="flex"> <!-- Skapar en div för navbaren.-->
+        <a class="textcool" href="#section1">Om</a> <!-- Gör dem 4 olika knapparna i navbaren-->
+        <a class="textcool" href="#section2">Arbeten</a>
+        <a class="textcool" href="#section3">Utbildning</a>
+        <a class="textcool" href="#section4">Kontakt</a>
+        <p class=header></p>
+    </div>
+    <div class="window"> <!--Skapar en vit window från bakgrunden.-->
+        <p class="margin0" id="section1">nub</p>
+        <h1 class="titelförst" id="margin-top" >Om Mig</h2> <!-- Gör om mig titeln-->
+        <div id="centerJuan">
+            <img id="img-page1"src="images/juanobama.jpg"> <!-- skpar bilden på juan Obama-->
+            <div class="text-box"> <!-- Skapar en div för textrutan åt höger på om mig-->
+                <h1 id="juanObama">Juan Obama</h2>
+                <hr>        
+                <p>
+                    Webbutvecklare & Programmerare,
+                    Jobbar bra med instruktioner,
+                    men är också Kreativ.
+                    Har erfarenhet att både jobba ensam,
+                    och i grupp och bidrar alltid till gruppen.
+                    
+                </p>
+            </div> 
+        </div>
+        <div id="arbeten">
+            <p class="margin2" id="section2">nub</p>
+            <h1 class="titel" class="arbeten">Tidigare Arbeten</h1> <!-- gör titeln-->
+            <div> <!-- div för att hålla dem två bilderna för tidigare arbeten.--> 
+                <img class="img-page2" id="img-page2" src="images/google.jpg">
+                <img class="img-page2" src="images/easports.jpg">
+            </div> 
+            <div class="flex1"> <!-- en div för att göra flexbox på 2 element-->
+                <h1 >EA</h1>
+                <br></br> <!-- br tag som gör att EA och Google är längre ifrån varandra-->
+                <br></br>
+                <br></br>
+                <h1>Google</h1>
+            </div>
+            <div id="flex"> <!-- En div för knapparna "Se Mer"-->
+                <button onclick="window.location.href='arbeten.html'" class="seMer">Se Mer</button> <!-- När man klickar på knappen på websidan redirectas man till det andra html filen.-->
+                <button onclick="window.location.href='arbeten.html'" class="seMer">Se Mer</button> <!-- samma ska görs-->
+                
+
+
+            </div>
+        </div>
+        <div>
+            <p class="margin3" id="section3">nub</p>
+            <h1 class="titel" id="section3">Utbildning</h1> <!-- gör titeln-->
+            <div class="utbildning"> <!-- div för dem tre kategorierna-->
+                <p></p>
+                <p></p>
+                <p></p><!-- gör så det lämnas utrymme-->
+                <p></p>
+                <h1 class="listTitel">År</h1>
+                <h1 id="middle" class="listTitel">Studier</h1>
+                <h1 class="listTitel">Skola</h1>
+                <p></p>
+
+            </div>
+            <div>
+                <table id="tableContent">
+                    <tr class="school">
+                        <td >2021-24</td>
+                        <td class="studier">Teknik</td>
+                        <td class="skola">NTI Gymnasiet</td>
+                    </tr>
+                    
+                    <tr>
+                        <td >2026-31</td>
+                        <td class="studier">Ingenjör</td>
+                        <td class="skola">Uppsala Universitet</td>     
+                    </tr>
+                    
+                    <tr>
+                        <td >2032-36</td>
+                        <td class="studier">Programmering</td>
+                        <td class="skola">Umeå Universitet</td>
+                    </tr>
+                    
+
+
+
+
+
+
+                </table>
+            </div>
+            <div>
+                <p class="margin4" id="section4">nub</p>
+                <h1 class="titel">Kontakt</h1> <!-- En sista titel -->
+                <div id="flex2"> <!-- en div för att gör att iconerna och texten ligger under varnadra -->
+                    <div id="flex3"> <!-- en div som gör att en icon och text ligger brevid varandra -->
+                        <img class="icon" src="images/mail.png" onclick="window.location.href='mailto:Juan.Obama@gmail.com'"> <!-- När man klickar på iconen blir man redirectad till mail -->
+                        <a class="textcool" onclick="window.location.href='mailto:Juan.Obama@gmail.com'" id="text">Juan.Obama@gmail.com</a> <!-- När man klickar på texten blir man redirectad till mail -->
+                    </div> <!-- en div för att gör att iconerna och texten ligger under varnadra -->
+                    <div id="flex3"> <!-- en div som gör att en icon och text ligger brevid varandra -->
+                        <img class="icon" src="images/dc.png" onclick="window.location.href='https:Obama.sexy'"> <!-- När man klickar på iconen blir man redirectad till obama.sexy -->
+                        <a class="textcool" onclick="window.location.href='https:Obama.sexy'" id="text">JuanObama#1257</a> <!-- När man klickar på texten blir man redirectad till obama.sexy -->
+                    </div> <!-- en div för att gör att iconerna och texten ligger under varnadra -->
+                    <div id="flex3"> <!-- en div som gör att en icon och text ligger brevid varandra -->
+                        <img class="icon" src="images/phone.png" onclick="window.location.href='https:discord.gg/NvEjy3Jksf'"> <!-- När man klickar på iconen blir man redirectad till discord -->
+                        <a class="textcool" onclick="window.location.href='https:discord.gg/NvEjy3Jksf'" id="text">0720098670</a> <!-- När man klickar på texten blir man redirectad till discord -->
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</html>

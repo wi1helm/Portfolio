@@ -1,0 +1,56 @@
+body {
+    background-color: #7CC563; /* För att sätta bakrundens färg på hela sidan till grön */
+    margin: 0%; /* ta bort defualt margin*/
+    padding: 0%; /* ta bort defualt padding */
+}
+
+.rectangle{ /* Skapa den vita rutan i mitten av skärmen*/
+    position: relative;
+    margin: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 2%;
+    padding-bottom: 0%;
+    background-color: white;
+}
+
+.flex{ /* För att lägga utrumme mellan bilderna*/
+    display: flex;
+    justify-content: space-around;
+}
+#back{ /* properties till tillbaka knappen */
+    display: inline-flex; /* gör så text bara är inom området den får vara och inte åker utanför för att widthen är för lite-  */
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #E9E7E7;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+img { /*gör bilderna stora och ger dom rundare hörn och border. */
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.text-box{ /*lägga till en ruta med text */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /*gör så att alla nya meningar börjar på samma ställe. */
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 5%;
+    background-color: #E9E7E7;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#header { /*properties för titeln */
+    text-align: center;
+    background-color: #E9E7E7;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 40%;
+    width: 20%;
+}
