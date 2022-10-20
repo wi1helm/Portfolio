@@ -1,0 +1,231 @@
+html { /*lägga till så den scrollar smooth med det script jag hade. */
+    scroll-behavior: smooth;
+   }
+body { /*fixa så bakrunden är grön */
+    background-color: #7CC563;
+    margin: 0%;
+    padding: 0%;
+}
+#margin-top{
+    margin-top: 0%;
+
+}
+.textcool{ /* gör så att knapparna i nav baren inte har något sträckunder dem. */
+    text-decoration: none;
+    font-size: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.textcool:visited{ /* Gör så att när man klickar på en knapp i nav baren ändras inte färgen på den. Då man har använt länken 1 gång. */
+    color:black;
+}
+
+.flex{  /*gör så knapparna är space-evenly */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #51A434;
+    margin-right: 0%;
+    
+}
+
+.flex1{ /*gör så den är space-between och lägger till massa margins och skit så den sitter på den plats den ska */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 45%;
+    
+}
+#flex{ /* gör skit så saker blir bra (NICE) */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+
+}
+
+.seMer{ /*properties för seemer knappen */
+    padding: 1%;
+    background-color: #7CC563 ;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.seMer:hover{ /* gör så att när man hovrar över se mer knappen med musen ändras curiorn så att man ser att det är en knapp*/
+    cursor: pointer;
+}
+
+.header { /* header */
+    margin-right: 50%;
+}
+.titel{ /* är en class så att alla titlar är lika dana över hela hemsidan. */
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0%;
+    background-color: #E9E7E7;
+    border-radius: 25px;
+    border: 1px solid black
+
+}
+.titelförst{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    background-color: #E9E7E7;
+    border-radius: 25px;
+    border: 1px solid black
+}
+#centerJuan{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-box{ /* en fin låda med text */
+    border: 1px solid black;
+    width: 50%;
+    font-size: 25px;
+    background-color: #D5D5D5  ;
+    border-radius: 50px;
+    padding: 2%;
+    padding-left: 2%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-bottom: 10%;
+}
+#juanObama{ /* propersies före juan obamas ansikte */
+    position: relative;
+    width: 500px;
+    right: 30%;
+    font-size: 30px;
+}
+.window{ /* gör den vita rutan i backgrunden skapad */
+    position: relative;
+    text-align: center;
+    margin: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 10%;
+    background-color: #E2E6EA;
+    border-radius: 5px;
+}
+.arbeten{ /* gör bara att arbeten titeln åker 30% år höger */
+    margin-top: 30%;
+
+}
+#img-page1{ /* ett id för en bild */
+    border-radius: 100px;
+    top: 150px;
+    left: 10% ;
+    height: 600px;
+}
+.img-page2{ /* class för bild 2*/
+    position: absolute;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    left: 10%;
+    margin-top: 5%;
+}
+#img-page2{ /* id för bild 2 */
+    margin-left: 50%;
+}
+
+.utbildning{ /* för att plasera ut var dem tre olika kategorierna ska vara någpon snatsn*/
+    display: flex;
+    justify-content: space-evenly;
+}
+.listTitel{ /* titel för en lista*/
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 50px;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+
+
+
+#flex2{ /* flex 3 */
+    display: flex;
+    flex-direction: column;
+}
+#flex3{ /* flex 2*/
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#text{ /*bild*/
+    position: absolute;
+    top: 35px;
+    left: 30%;
+}
+table {
+    width: 90%;
+    margin-left: 20%;
+
+}
+
+.studier{
+    padding-left: 7%;
+
+}
+.skola{
+    padding-left: 7%;
+
+}
+
+#tableContent tr{ /*G*/
+    padding: 8px;
+    text-align: left;
+    font-size: 30px;
+}
+#text:hover{ /*gör så att när man hoverar över en knapp vissas det att man gör det. genom att byta cursor till pointer.*/ 
+    cursor: pointer;
+
+}
+.icon{ /*egenskaper för iconerna*/
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    margin-left: 15%;
+    background-color: #7CC563;
+    border-radius: 100px;
+
+}
+
+.margin0{ /*to add no margin to top*/
+    margin-top: 0%;
+    color: #E2E6EA;
+}
+
+.margin2{ /*to add no margin to top*/
+    margin-top: 20%;
+    color: #E2E6EA;
+}
+
+.margin3{ /*to add no margin to top*/
+    margin-top: 30%;
+    color: #E2E6EA;
+}
+
+.margin4{ /*to add no margin to top*/
+    margin-top: 20%;
+    color: #E2E6EA;
+}
+#section1{ /*sak som sak fungerande*/
+}
+#section2{ /*^^^^^*/
+}
+#section3{ /*^^^^*/
+}
+#section4{
+}
