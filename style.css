@@ -18,6 +18,10 @@ body { /*fixa så bakrunden är grön */
     color:black
 }
 
+.textcool:link{
+    color:black
+
+}
 .textcool:visited{ /* Gör så att när man klickar på en knapp i nav baren ändras inte färgen på den. Då man har använt länken 1 gång. */
     color:black;
 }
