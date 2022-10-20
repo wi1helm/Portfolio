@@ -15,6 +15,7 @@ body { /*fixa så bakrunden är grön */
     font-size: 50px;
     padding-top: 1%;
     padding-bottom: 1%;
+    color:black
 }
 
 .textcool:visited{ /* Gör så att när man klickar på en knapp i nav baren ändras inte färgen på den. Då man har använt länken 1 gång. */
